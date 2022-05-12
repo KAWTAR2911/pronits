@@ -18,6 +18,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
 </head>
 <body>
     <div id="app">
@@ -79,5 +80,22 @@
             @yield('content')
         </main>
     </div>
+    <script src="https://designreset.com/cork/ltr/demo4/assets/js/libs/jquery-3.1.1.min.js"></script>
+    <script src="https://designreset.com/cork/ltr/demo4/assets/js/libs/jquery-3.1.1.min.js"></script>
+    <script src="https://designreset.com/cork/ltr/demo4/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        var togglePassword = document.getElementById("toggle-password")
+           
+                togglePassword.addEventListener('click', function() {
+                    console.log("testing here")
+                  var x = document.getElementById("password");
+                  if (x.type === "password") {
+                    x.type = "text";
+                  } else {
+                    x.type = "password";
+                  }
+                });
+            
+    </script>
 </body>
 </html>
