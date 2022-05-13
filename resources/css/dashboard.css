@@ -4,6 +4,32 @@
 @import "perfect-scrollbar.css";
 @import "monokai-sublime.css";
 
+::-webkit-scrollbar {
+    background-color: transparent;
+    width:5px
+}
+
+/* background of the scrollbar except button or resizer */
+::-webkit-scrollbar-track {
+    background-color:transparent
+}
+::-webkit-scrollbar-track:hover {
+    background-color: #dadada;
+}
+
+/* scrollbar itself */
+::-webkit-scrollbar-thumb {
+    background-color: rgba(136, 142, 168, 0.71);
+    border-radius:5px;
+    height: 100px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color:#888ea8;
+    width: 10px;
+}
+
+/* set button(top and bottom of the scrollbar) */
+::-webkit-scrollbar-button {display:none}
 
 .layout-spacing {
     padding-bottom: 25px;

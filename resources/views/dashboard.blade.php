@@ -371,7 +371,7 @@
 
         <nav id="sidebar">
             <div class="shadow-bottom"></div>
-            <ul class="list-unstyled menu-categories ps ps--active-y" id="accordionExample">
+            <ul class="list-unstyled menu-categories" id="accordionExample" style="overflow-y:scroll">
                 <li class="menu">
                     <a href="#dashboard" data-active="true" data-toggle="collapse" aria-expanded="false"
                        class="dropdown-toggle collapsed">
@@ -1596,5 +1596,7 @@
 <script src="https://designreset.com/cork/ltr/demo4/assets/js/libs/jquery-3.1.1.min.js"></script>
 <script src="https://designreset.com/cork/ltr/demo4/bootstrap/js/popper.min.js"></script>
 <script src="https://designreset.com/cork/ltr/demo4/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://designreset.com/cork/ltr/demo4/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+<script src="https://designreset.com/cork/ltr/demo4/assets/js/app.js"></script>
 </body>
 </html>
