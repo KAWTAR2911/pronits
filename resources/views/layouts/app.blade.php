@@ -18,6 +18,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/login.css') }}" rel="stylesheet">
 
 </head>
 <body>
@@ -85,7 +86,7 @@
     <script src="https://designreset.com/cork/ltr/demo4/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript">
         var togglePassword = document.getElementById("toggle-password")
-           
+
                 togglePassword.addEventListener('click', function() {
                     console.log("testing here")
                   var x = document.getElementById("password");
@@ -95,7 +96,7 @@
                     x.type = "password";
                   }
                 });
-            
+
     </script>
 </body>
 </html>
